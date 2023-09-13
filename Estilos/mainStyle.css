@@ -225,7 +225,7 @@ footer{
 
 .formulario{
     background-color: rgb(176, 203, 244); 
-    background-image: url(../imagenes/fondo2.png);
+    background-image: url(imagenes/fondo2.png);
     width: 50%;
     height: 100%;
     gap: 0.5pc;
