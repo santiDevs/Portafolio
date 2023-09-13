@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    background-color: rgb(208, 227, 255);
+    background-image: url(../Imagenes/fondo.png);
+}
+
+nav{
+    background-color: rgb(136, 190, 255);
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 4.5pc;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+p{
+    font-size: 1pc;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    font-size: 1.1pc;
+}
+
+img{
+    border-radius: 20px;
+}
+
+nav ul{
+    display: flex;
+    position: absolute;
+    left: 78%;
+    gap: 1pc;
+}
+
+nav a{
+    color: white;
+}
+
+h2{
+    font-size: 2.5pc;
+    color: rgb(10, 24, 80);
+}
+
+footer{
+    background-color: rgb(92, 130, 227);
+    height: 7pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 9pc;
+}
+
+.banner{
+    height: 25pc;
+    position: relative; 
+}
+
+.imagen-banner{
+    height: 100%;
+    z-index: 0;
+    border-radius: 0;
+    overflow-x: hidden;
+}
+
+.contenido-banner{
+    background: rgba(0, 0, 0.1, 0.2);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(231, 251, 255);
+    background: url(../Imagenes/banner.png)
+}
+
+.contenido-banner h1{
+    font-size: 5pc;
+    position: absolute;
+    bottom: 45%;
+}
+
+.contenido-banner h2{
+    position: absolute;
+    bottom: 35%;
+    font-size: 2pc;
+}
+
+.subtitulo-banner{
+    font-size: 3.5pc;
+    color: rgb(231, 251, 255);;
+}
+
+.icono{
+    width: 3pc;
+}
+
+.contenedor-iconos{
+    position: absolute;
+    display: flex;
+    gap: 1pc;
+}
+
+.quien-soy{
+    position: relative;
+    height: 60vh;
+}
+
+.quien-soy h2{
+    position: absolute;
+    left: 41%;
+    top: 17%;
+}
+
+.quien-soy p{
+    position: absolute;
+    left: 41%;
+    top: 32%;
+    width: 35pc;
+}
+
+.quien-soy button{
+    border: 0;
+    height: 4pc;
+    width: 6.5pc;
+    background-color: rgb(86, 157, 244);
+    font-size: 1pc;
+    font-weight: 700;
+    border-radius: 15px;
+    position: absolute;
+    top: 77%;
+    left: 41%;
+}
+
+.quien-soy a{
+    color: rgb(231, 251, 255);
+}
+
+.foto{
+    width: 20pc;
+    position: absolute;
+    left: 12%;
+    top: 10%;
+}
+
+.proyectos{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.proyectos h2{
+    text-align: center;
+    padding: 2pc;
+}
+
+.imagenes-proyectos{
+    display: flex;
+    flex-wrap: wrap;     
+    justify-content: center;
+    width: 1000px;
+    margin-left: 12%;
+    position: relative;
+}
+
+.imagenes-proyectos img{
+    width: 25pc;
+    padding: 0.5pc;
+}
+
+.imagenes-proyectos p{
+    font-size: 1.6pc;
+    color: rgb(219, 249, 255);
+    position: absolute;
+    top: 30%;
+}
+
+.contactame{
+    background-color: rgb(195, 219, 255); 
+    position: relative;
+    height: 25pc; 
+    display: flex;
+    justify-content: end;
+}
+
+.contactame h2{
+    position: absolute;
+    right: 67%;
+    top: 45%;
+    z-index: 2;
+    color: rgb(231, 251, 255);
+}
+
+.contactame img{
+    border-radius: 0;
+    z-index: 1;
+}
+
+.telefono{
+    width: 4pc;
+    height: 4pc;
+    position: absolute;
+    top: 43%;
+    right: 63.5%;
+}
+
+.formulario{
+    background-color: rgb(176, 203, 244); 
+    background-image: url(../imagenes/fondo2.png);
+    width: 50%;
+    height: 100%;
+    gap: 0.5pc;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.formulario input{
+    border: none;
+    text-align: center;
+    border-radius: 0.7pc;
+}
+
+.entrada{
+    width: 15pc;
+    height: 2.5pc;
+    margin-top: 2pc;
+}
+
+#contenedor-iconos-banner{
+    top: 70%;
+    right: 44%;
+    gap: 2pc;
+}
+
+#contenedor-iconos-banner img{
+    width: 3pc;
+}
+
+#contenedor-iconos-footer{
+    gap: 4pc;
+}
+
+#contenedor-iconos-footer img{
+    width: 4pc;
+}
+
+#videojuegos{
+    position: relative;
+}
+
+#ilustracion{
+    position: relative;
+}
+
+#youtube{
+    position: relative;
+}
+
+#videojuegos p{
+    left: 10%;
+}
+
+#ilustracion p{
+    left: 35%;
+}
+
+#youtube p{
+    left: 37%;
+}
+
+#gota{
+    position: absolute;
+    width: 11pc;
+    left: 2%;
+}
+
+#calamar{
+    position: absolute;
+    width: 8pc;
+    left: 75%;
+    top: 65%;
+}
+
+#kuko{
+    position: absolute;
+    width: 7pc;
+    top: 1%;
+    left: 60%;
+}
+
+#asunto{
+    width: 30.5pc;
+    height: 2.5pc;
+    position: absolute;
+    top: 22%;
+}
+
+#mensaje{
+    width: 30.5pc;
+    height: 10pc;
+    position: absolute;
+    top: 36%;
+}
+
+#enviar{
+    width: 30.5pc;
+    height: 3pc;
+    position: absolute;
+    left: 12%;
+    top: 80%;
+    background-color: rgb(86, 157, 244);
+    font-size: 1.2pc;
+    font-weight: 700;
+    color: rgb(231, 251, 255);
+}
